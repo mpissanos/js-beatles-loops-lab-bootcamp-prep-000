@@ -10,7 +10,7 @@ function johnLennonFacts(facts) {
  var i = 0;
  var myArr = []
   while(facts.length > i) {
-     (facts + "!!!"); 
+     myArr.push(facts + "!!!"); 
      i++;
   }
   return facts;
