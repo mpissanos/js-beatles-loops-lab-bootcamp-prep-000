@@ -10,8 +10,9 @@ function johnLennonFacts(array) {
  var facts = []
  var i = 0;
   while(array.length > 0) {
-    facts.push(array[i] + '!!!')
     i--;
+    facts.push(array[i] + '!!!')
+   
   }
   return facts;
 }
